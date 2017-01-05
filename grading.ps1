@@ -8,10 +8,6 @@ Param(
 
 Write-Host "Starting the clone!"
 
-
-#$url = "https://github.com/SherryHall/Weatherman.git";
-#$username = "SherryHall";
-#$username = "wuashiboy";
 $url  = "https://github.com/" + $username + "/" + $repo + ".git";
 
 $reset = "rm -Force -r " + $repo;
